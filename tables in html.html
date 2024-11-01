@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables in htlml</title>
+</head>
+<body>
+    <table border="black">
+       <caption>food menu</caption>
+    <thead>
+       <tr>
+        <th>item</th>
+        <th>price</th>
+       </tr>
+    </thead>
+
+    <tbody>
+       <tr>
+        <td>frooti</td>
+        <td>10</td>
+       </tr>
+       <tr>
+        <td>frooti</td>
+        <td>10</td>
+       </tr>
+       <tr>
+        <td>frooti</td>
+        <td>10</td> 
+       </tr>
+    </tbody>
+    </table>
+
+    <!-- <tr> = tr tag is used to display tables row -->
+    <!-- <td> = td tag is used to display tables data -->
+    <!-- <th> = th tag is used to display tables header-->
+    <!--<thead> = thead is used to wrap table header-->
+    <!--<thody> = thody is used to wrap table body-->
+    <!--<tfoot> = tfoot is used to table footer-->
+
+<hr>
+
+        <table border="black">
+            <caption>food menu</caption>
+            <thead>
+                <tr>
+                  <th rowspan="2" >item</th>
+                  <th colspan="2">price</th>
+                </tr>
+                <tr>
+                  <th>INR</th>
+                  <th>USD</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td>frooti</td>
+                <td>10</td>
+                <td>0.1</td>
+               </tr>
+               <tr>
+                <td>frooti</td>
+                <td>10</td>
+                <td>0.1</td>
+               </tr>
+               <tr>
+                <td>frooti</td>
+                <td>10</td>
+                <td>0.1</td>
+               </tr>
+            </tbody>
+
+           
+        </table>
+
+        <hr>
+        <table border="black">
+            <caption>a test table with merged cell</caption>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">average</th>
+                <th rowspan="2">red eyes</th>
+            </tr>
+            <tr>
+                <th>height</th>
+                <th>weight</th>
+            </tr>
+            <tbody>
+              <tr>
+                <td>males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+              </tr>
+              <tr>
+                <td>fmales</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+              </tr>
+            </tbody>
+        </table>
+    
+</body>
+</html>
