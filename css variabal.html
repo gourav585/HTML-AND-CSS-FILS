@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variabal</title>
+    <style>  
+
+    :root{
+        --color: rgb(230, 22, 181);
+        --seccolor: rgb(210, 73, 217);
+    }
+
+    *{
+       margin: 0;
+       padding: 0; 
+    }
+
+    ul{
+        display:flex
+    }
+    ul li{
+        list-style:none;
+        padding: 34px;
+        
+    }
+    ul li:first-child{
+        --color: rgb(190, 211, 29);
+        background-color: var(--color);
+    }
+        .nev{
+            background-color: var(--color);
+        }
+        .container{
+            background-color: var(--seccolor) ;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="nev">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>content</li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorem atque earum molestias iure, eveniet
+        accusamus vero! Sint dicta quasi, similique dolores aliquid totam illo eaque! Deserunt ratione, quidem molestias
+        ut quae porro asperiores. Sed vitae nostrum numquam velit maiores est commodi, alias iste distinctio?
+    </div>
+
+</body>
+
+</html>
